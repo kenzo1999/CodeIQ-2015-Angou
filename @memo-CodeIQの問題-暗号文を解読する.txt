@@ -1,25 +1,25 @@
-2015/1/29�ɒ��킵�āA�񓚂𑗕t�����B
+2015/1/29に挑戦して、回答を送付した。
 
-���́@�ޏ��ƃf�[�g���悤�Ƃ�����A�ޏ��̏��F�B����ȒP�ȈÍ�����񎦂���āA
-�������ǂł�����ޏ��ƃf�[�g���鎑�i������ƔF�߂悤�A�Ƃ������ɂȂ�A
-�m�[�g�o�b�ŃT�N�b�Ɖ�ǂ��Ė����Ƀf�[�g�ł���悤�ɂ��悤�A�Ƃ������́B
+問題は　彼女とデートしようとしたら、彼女の女友達から簡単な暗号文を提示されて、
+それを解読できたら彼女とデートする資格があると認めよう、という事になり、
+ノートＰＣでサクッと解読して無事にデートできるようにしよう、というもの。
 
 
-�Í����́A�ȉ��̂悤�Ȃ��̂ŁA�����R�[�h���V�t�g���Ă���炵���A�Ƃ���
-�q���g���������B
+暗号文は、以下のようなもので、文字コードをシフトしているらしい、という
+ヒントがあった。
 
 LZH SN STJHZTMNMZQZ JNMN ATMRGNT VN OTQNFTQZLT CD JZHCNJT RHMZRZH 
 RNQDJTQZH CDJHMZJXZ VZSZRH GZ ETSZQH FZ STJHZT MNVN LHSNLDMZHXN
 
-�b���̃R���\�[���A�v��������āA�����R�[�h����i�߂�Ɖ񓚂�����ꂽ�B
-�iA �� B , B �� C , ... , Z �� A)
+Ｃ＃のコンソールアプリを作って、文字コードを一つ進めると回答が得られた。
+（A → B , B → C , ... , Z → A)
 
 
-���s���ʂ́A�ȉ��̒ʂ�
+実行結果は、以下の通り
 
 MAI TO TUKIAUNONARA KONO BUNSHOU WO PUROGURAMU DE KAIDOKU SINASAI SOREKU
 RAI DEKINAKYA WATASI HA FUTARI GA TUKIAU NOWO MITOMENAIYO
 
-�}�C�@�Ɓ@�������̂Ȃ�@���́@���́@���@�v���O�����@�Ł@��ǁ@���Ȃ����@���ꂭ
-�炢�@�ł��Ȃ���@�킽���@�́@�ӂ���@���@�������@�̂��@�F�߂Ȃ���
+マイ　と　つきあうのなら　この　文章　を　プログラム　で　解読　しなさい　それく
+らい　できなきゃ　わたし　は　ふたり　が　つきあう　のを　認めないよ
 
